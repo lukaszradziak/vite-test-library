@@ -1,1 +1,1 @@
-console.log('env', process.env);
+console.warn('env', process.env);
