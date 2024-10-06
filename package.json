@@ -1,7 +1,7 @@
 {
   "name": "vite-test-library",
   "private": true,
-  "version": "1.0.6",
+  "version": "1.0.7",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -9,7 +9,7 @@
     "postinstall": "node print.js"
   },
   "bin": {
-    "cli": "./cli.js"
+    "luki-cli": "./cli.js"
   },
   "devDependencies": {
     "vite": "^5.4.8"
