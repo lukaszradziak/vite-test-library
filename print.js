@@ -1,5 +1,6 @@
 const fs = require('fs');
-require('dotenv').config();
+const {resolve} = require("node:path");
+require('dotenv').config({ path: resolve(__dirname, '.env') });
 
 console.info('env_luki', process.env);
 
