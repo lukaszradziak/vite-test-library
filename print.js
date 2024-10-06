@@ -1,4 +1,5 @@
-import fs from "fs";
+const fs = require('fs');
+require('dotenv').config();
 
 console.info('env_luki', process.env);
 
