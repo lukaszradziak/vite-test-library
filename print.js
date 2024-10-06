@@ -1,1 +1,1 @@
-console.warn('env_luki', process.env);
+console.info('env_luki', process.env);
